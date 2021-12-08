@@ -10,12 +10,7 @@ import UIKit
 class Contacts: UITableViewController {
     
     
-    var nameArray = ["Sergey", "Alexander", "Maxim", "Alexey"]
-    var surnameArray = ["Karpov", "Potapov", "Suvorov", "Smirnov"]
-    var phoneNuberArray = ["899923211", "8999345343", "89213450095", "8905238743"]
-    var emailArray = ["robot@ya.ru", "bokoon@gmail.com", "popov34@mail.com", "smirmoov99@ya.ru"]
-    
-    
+    let persons = Person.createArray(names: namesArray, surnames: surnamesArray, phones: phoneNumbersArray, emails: emailsArray)
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,25 +22,22 @@ class Contacts: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return persons.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let cell = tableView.dequeueReusableCell(withIdentifier: "showContacs", for: indexPath)
+        cell.textLabel?.text
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -91,25 +83,5 @@ class Contacts: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-    private func createArray(names: [String], surnames: [String], phones: [String], emails: [String]) -> [Person] {
-        
-        names.shuffled()
-        surnames.shuffled()
-        phones.shuffled()
-        emails.shuffled()
-        
-        var personsArray = [Person]()
-        
-        for i in 0 ..< names.count {
-        
-            let person = Person(name: names[i], surname: surnames[i], phoneNuber: phones[i], email: emails[i])
-            
-            personsArray.append(person)
-            
-        }
-        return personsArray
-    }
-
 
 }

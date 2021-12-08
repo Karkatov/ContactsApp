@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00613DAE27611465000DB924 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00613DAD27611465000DB924 /* DataManager.swift */; };
 		008998AE276015DA00EDD4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998AD276015DA00EDD4C0 /* AppDelegate.swift */; };
 		008998B0276015DA00EDD4C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998AF276015DA00EDD4C0 /* SceneDelegate.swift */; };
 		008998B5276015DA00EDD4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008998B3276015DA00EDD4C0 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00613DAD27611465000DB924 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		008998AA276015DA00EDD4C0 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008998AD276015DA00EDD4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008998AF276015DA00EDD4C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				008998C32760198800EDD4C0 /* Person.swift */,
+				00613DAD27611465000DB924 /* DataManager.swift */,
 				008998C12760186100EDD4C0 /* Contacts.swift */,
 				008998B3276015DA00EDD4C0 /* Main.storyboard */,
 				008998AD276015DA00EDD4C0 /* AppDelegate.swift */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008998AE276015DA00EDD4C0 /* AppDelegate.swift in Sources */,
+				00613DAE27611465000DB924 /* DataManager.swift in Sources */,
 				008998B0276015DA00EDD4C0 /* SceneDelegate.swift in Sources */,
 				008998C42760198800EDD4C0 /* Person.swift in Sources */,
 				008998C22760186100EDD4C0 /* Contacts.swift in Sources */,
