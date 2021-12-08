@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		008998AE276015DA00EDD4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998AD276015DA00EDD4C0 /* AppDelegate.swift */; };
 		008998B0276015DA00EDD4C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998AF276015DA00EDD4C0 /* SceneDelegate.swift */; };
-		008998B2276015DA00EDD4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998B1276015DA00EDD4C0 /* ViewController.swift */; };
 		008998B5276015DA00EDD4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008998B3276015DA00EDD4C0 /* Main.storyboard */; };
 		008998B7276015DB00EDD4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008998B6276015DB00EDD4C0 /* Assets.xcassets */; };
 		008998BA276015DB00EDD4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008998B8276015DB00EDD4C0 /* LaunchScreen.storyboard */; };
+		008998C22760186100EDD4C0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998C12760186100EDD4C0 /* Contacts.swift */; };
+		008998C42760198800EDD4C0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008998C32760198800EDD4C0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008998AA276015DA00EDD4C0 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008998AD276015DA00EDD4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008998AF276015DA00EDD4C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		008998B1276015DA00EDD4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		008998B4276015DA00EDD4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		008998B6276015DB00EDD4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008998B9276015DB00EDD4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008998BB276015DB00EDD4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008998C12760186100EDD4C0 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		008998C32760198800EDD4C0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 		008998AC276015DA00EDD4C0 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				008998C32760198800EDD4C0 /* Person.swift */,
+				008998C12760186100EDD4C0 /* Contacts.swift */,
+				008998B3276015DA00EDD4C0 /* Main.storyboard */,
 				008998AD276015DA00EDD4C0 /* AppDelegate.swift */,
 				008998AF276015DA00EDD4C0 /* SceneDelegate.swift */,
-				008998B1276015DA00EDD4C0 /* ViewController.swift */,
-				008998B3276015DA00EDD4C0 /* Main.storyboard */,
 				008998B6276015DB00EDD4C0 /* Assets.xcassets */,
 				008998B8276015DB00EDD4C0 /* LaunchScreen.storyboard */,
 				008998BB276015DB00EDD4C0 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008998B2276015DA00EDD4C0 /* ViewController.swift in Sources */,
 				008998AE276015DA00EDD4C0 /* AppDelegate.swift in Sources */,
 				008998B0276015DA00EDD4C0 /* SceneDelegate.swift in Sources */,
+				008998C42760198800EDD4C0 /* Person.swift in Sources */,
+				008998C22760186100EDD4C0 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
